@@ -61,4 +61,28 @@ class Game
 
     end
 
+  puts "                                                                                                         "
+  puts "                                                                                                         "
+  puts "Your cloak flicks widly behind you, wrenched back and forth by an ill and cold"
+  puts "wind bringing the smell of dank and decay from the dark forest ahead stretching"
+  puts "as far as can be seen north, south and west."
+  puts "                                                                                                         "
+  puts "                                                                                                         "
+  puts "To the southern side of the road sits a rickety old log cabin, there upon the front landing sits"
+  puts "a withered old man whose eyes are covered by a strip of cloth belying the blindness beneath."
+  puts "                                                                                                          "
+
+  puts "Greetings #{name} I have been expecting you! Many have passed this way and so few have"
+  puts "returned from the cursed Mirkwood, those that have rarely do speak of what lies within"
+  puts "or beyond that dark place. You are either very brave or very motivated to enter here."
+  puts "                                                                                                         "
+  puts "                                                                                                         "
+
+  puts "The road forks here brave #{name} and which of these three roads into the Mirkwood you take"
+  puts "will be the first of many choices you must make on your journey."
+  puts "                                                                                                         "
+  puts " "
+  
+
 end
+
