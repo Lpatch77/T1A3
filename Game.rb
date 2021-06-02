@@ -8,6 +8,7 @@ require 'thor'
 require 'equatable'
 require 'artii'
 require_relative 'story'
+require_relative 'story2'
 
 # class Game
 
