@@ -7,32 +7,19 @@ require 'pastel'
 require 'thor'
 require 'equatable'
 require 'artii'
+require 'espeak'
 require_relative 'story'
 require_relative 'story2'
-
-# class Game
-
-#     attr_reader :name,:total_score,:top_scores
-  
-    # def initialize
-    #    @maingame = Story.new
-     
-    # end
-  
-    # def self.instructions
-  
-      font = TTY::Font.new(:doom)
-  
-    #puts font.write ("MIRKWOOD")
-    #artii 'MIRKWOO'
-    
-    #end
+require_relative 'story3'
+# include ESpeak
   
     prompt = TTY::Prompt.new
   
     font = TTY::Font.new(:doom)
   
-  #   name = prompt.ask 
+    # speech = Speech.new("Welcome to Mirkwood!")
+    # speech.speak
+
     puts "                                                                                                         "
     puts "                                                                                                         "
     puts "                                                                                                         "
