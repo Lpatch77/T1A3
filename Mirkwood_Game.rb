@@ -18,9 +18,7 @@ require_relative 'story7'
 require_relative 'story8'
 require_relative 'story9'
 require_relative 'story10'
-require_relative 'story11'
-require_relative 'story12'
-# include ESpeak
+
   
 
 
