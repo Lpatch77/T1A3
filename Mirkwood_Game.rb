@@ -27,8 +27,8 @@ require_relative 'story10'
   
     font = TTY::Font.new(:doom)
   
-    speech = Speech.new("WELCOME TO MIRKWOOD!")
-    speech.speak # invokes espeak
+    # speech = Speech.new("WELCOME TO MIRKWOOD!")
+    # speech.speak # invokes espeak
     
     puts "                                                                                                         "
     puts "                                                                                                         "
