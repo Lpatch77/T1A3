@@ -1,0 +1,173 @@
+SOFTWARE DEVELOPMENT PLAN
+FLEXTRACK T1A3- TERMINAL APP
+
+
+
+
+LUKE PATCH
+
+
+
+DATE 19/5/21
+ 
+TABLE OF CONTENTS
+INTRODUCTION	2
+PROJECT MANAGEMENT APPROACH	2
+PROJECT SCOPE	3
+PURPOSE………………………………………………………………………………………………………………………………...3
+MILESTONE LIST	3
+SCHEDULE BASELINE AND WORK BREAKDOWN STRUCTURE	4
+CHANGE MANAGEMENT PLAN	4
+COMMUNICATIONS MANAGEMENT PLAN	4
+COST MANAGEMENT PLAN	5
+PROCUREMENT MANAGEMENT PLAN	5
+PROJECT SCOPE MANAGEMENT PLAN	5
+SCHEDULE MANAGEMENT PLAN	6
+QUALITY MANAGEMENT PLAN	6
+RISK MANAGEMENT PLAN	6
+STAFFING MANAGEMENT PLAN	7
+RESOURCE CALENDAR	7
+COST BASELINE	7
+QUALITY BASELINE	7
+SPONSOR ACCEPTANCE	8
+
+ 
+INTRODUCTION
+The intention of this project and application is to fullfil the guidelines of the final assignement of term 1 of the Flextrack boot camp. 
+
+
+PROJECT MANAGEMENT APPROACH
+As this is a solo project there are no other team members to list and as such my approach will be based on the skills we have been shown throughout term 1. 
+
+PROJECT SCOPE
+1.Project needs- The application will be a terminal based text role playing game in the format of the “Choose Your Own Adventure” books. This will be implemented using the Ruby programming language.
+ 2.Objective and goals-As per instroduction. The goals of this application will be based on the SMART principle (Specific, Measurable, Realistic and completed in the allocated Timeframe).
+This a text based terminal game in the style of the choose your own adventure books. The story is based lossley on Tolkien’s works and is set in his Middle Earth from the Lord of The Rings and Hobbit books. 
+“Mirkwood seems to have had much the same boundaries as it did at the end of the Third Age for most of its history. It was roughly rectangular in shape: stretching from the foothills of the Grey Mountains in the north to the North Undeep in the south, and from the east edge of the vale of Anduin to Erebor.
+It was bisected by the ancient Old Forest Road. Later, when this road became unusable, a second path through the forest was made to the north. Between the two paths lay the Mountains of Mirkwood. The Forest River cut through the forest's northern end from its source in the western Grey Mountains, joined in the centre by the Enchanted River which flowed north from the Mountains of Mirkwood.
+ 
+ 
+Map of Wilderland by J.R.R. Tolkien showing the northern part of Mirkwood.
+South of the Old Forest road the East Bight created the Narrows of the Forest, only one hundred miles across. South and west of the narrows was the a hill called Amon Lanc.”
+Cited- tolkiengateway.net
+
+The apllication makes use of TTY prompt to manage the multiple choices and then guides the terminal to the next block of text and another prompt and so on.
+A random number generator and a loop simulates a dice roll.
+User will be aksed their name, be presented with a story and then multiple choices which determine the route the story takes through the control flow.
+Target audience would be young teens.
+The audience will be aksed their name, be presented with a story and then multiple choices which determine the route the story takes through the control flow.
+ FEATURES 
+1.	The apllication makes use of TTY prompt to manage the multiple choices and then guides the terminal to the next block of text and another prompt and so on.
+2.	puts "The road forks here brave #{name} and which of these three roads into the Mirkwood you take"
+3.	  puts "will be the first of many choices you must make on your journey."
+4.	  puts "                                                                                                         "
+5.	  puts " "
+
+6.	Menu.choice links to paragraph methods to store the blocks of text.
+7.	prompt.select("Which road do you choose traveler?") do |menu|
+8.	    menu.choice "The north road", -> {paragraph_1}
+9.	    menu.choice "The middle road", -> {paragraph_2}
+10.	    menu.choice "The south road", -> {paragraph_3}
+11.	
+
+12.	A random number generator and a loop simulates a dice roll.
+13.	puts " The dwarf kneels and rolls the dice and the dice read"
+14.	
+15.	roll = rand(1..12)
+16.	
+17.	puts roll
+18.	
+19.	if roll > 7
+20.	  puts  "  'The fates are in my favour I will ride with you'"
+21.	  puts ""
+22.	  puts  " You smile and hold out your hand to the dwarf and pull him up onto your mount and you continue along the path"
+23.	  puts " It is a long and perilous journey however with the dwarves help you emerge safely from the Mirkwood. "
+24.	  puts "
+25.	  
+26.	else
+27.	  puts  "  'The fates are in your favour friend and I am a dwarf of my word'"
+28.	  puts  "  'Ahead lies a fork in the road, take the left fork and when you come acros a ginat tree by a stream go behind it'"
+29.	  puts  "  'there you will find an entrance to a dwarven tunnel which leads to the other side of the forest safely'"
+30.	  puts  "  'I will go back and find another pony, fare thee well"
+31.	  puts  ""
+32.	  puts  "  You follow the dwarves direction and after a long journey through the tunnel you emerge on the other side of the forest."
+33.	  puts "
+34.	  
+35.	end
+36.	
+37.	end
+
+
+
+Purpose
+The purpose of this Software Development Plan is to outline the requirements, goals and methods used to complete the application and project.
+
+PROBLEMS
+Ruby would not work on my Macbook pro until last week as such this has been quite rushed and I have had to re-learn ruby in a week.
+I was unable to generate an executable from the application despite trying four different gems. I could not find a gem that would do this for ruby 2.3.7. As such the application will need to run within the terminal or ruby. 
+SCHEDULE BASELINE AND WORK BREAKDOWN STRUCTURE
+See Trello board.
+
+
+CHANGE MANAGEMENT PLAN
+Changes will be documented via commits to Github and updates to the Trello board.
+
+COMMUNICATIONS MANAGEMENT PLAN
+NA 
+
+COST MANAGEMENT PLAN
+NA
+
+
+PROCUREMENT MANAGEMENT PLAN
+NA
+
+PROJECT SCOPE MANAGEMENT PLAN
+NA
+
+
+SCHEDULE MANAGEMENT PLAN
+TBA
+ 
+
+QUALITY MANAGEMENT PLAN
+The aplication will go through testing iterations.	
+
+
+RISK MANAGEMENT PLAN
+NA
+
+
+
+STAFFING MANAGEMENT PLAN
+NA
+
+ 
+RESOURCE CALENDAR
+
+Ruby 2.3.7
+Ruby Gems-
+ TTY
+TTY prompt	
+TTY font
+Colorize
+rspec
+
+
+COST BASELINE
+NA
+
+
+QUALITY BASELINE
+The aplication will go through testing iterations.	
+
+SPONSOR ACCEPTANCE 
+
+
+Approved by the Project Sponsor:
+
+
+		Date:	
+<Project Sponsor>
+<Project Sponsor Title>
+
