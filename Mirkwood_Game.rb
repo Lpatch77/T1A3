@@ -7,7 +7,7 @@ require 'tty-font'
 # require 'thor'
 # require 'equatable'
 require 'artii'
-require 'espeak'
+include ESpeak
 require_relative 'story'
 require_relative 'story2'
 require_relative 'story3'
@@ -27,9 +27,9 @@ require_relative 'story10'
   
     font = TTY::Font.new(:doom)
   
-    # speech = Speech.new("Welcome to Mirkwood!")
-    # speech.speak
-
+    speech = Speech.new("WELCOME TO MIRKWOOD!")
+    speech.speak # invokes espeak
+    
     puts "                                                                                                         "
     puts "                                                                                                         "
     puts "                                                                                                         "
