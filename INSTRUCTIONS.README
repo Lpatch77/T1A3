@@ -1,0 +1,16 @@
+This a text based terminal game in the style of the choose your own adventure books. The story is based lossley on Tolkien’s works and is set in his Middle Earth from the Lord of The Rings and Hobbit books.
+
+This game must be run from the terminal and requires Ruby and the following ruby gems-
+
+Ruby Gems-
+ TTY
+TTY prompt	
+TTY font
+Colorize
+rspec
+
+To run the game make sure you are in the game diretcory and in the termial type
+
+irb
+
+Ruby Mirkwood_Game.rb
