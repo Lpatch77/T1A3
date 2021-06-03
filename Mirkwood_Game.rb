@@ -50,8 +50,11 @@ require_relative 'story12'
     prompt = TTY::Prompt.new
   
     font = TTY::Font.new(:doom)
+
+    puts font.write("MIRKWOOD",letter_spacing: 4)
   
   #   name = prompt.ask 
+
     
     
     name = prompt.ask("Before you enter the Mirkwood adventurer do tell me your name?", default: "hero") do |q|
