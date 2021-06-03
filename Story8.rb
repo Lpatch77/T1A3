@@ -1,6 +1,8 @@
 $paragraph_8 = def paragraph_8 
 
-prompt = TTY::Prompt.new
+
+font = TTY::Font.new(:doom)
+
 
 puts ""
 puts "" 

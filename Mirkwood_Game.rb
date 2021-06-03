@@ -7,7 +7,7 @@ require 'tty-font'
 # require 'thor'
 # require 'equatable'
 require 'artii'
-include ESpeak
+# include ESpeak
 require_relative 'story'
 require_relative 'story2'
 require_relative 'story3'

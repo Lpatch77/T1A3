@@ -2,7 +2,9 @@ prompt = TTY::Prompt.new
 
 $paragraph_7 = def paragraph_7 
 
-prompt = TTY::Prompt.new
+font = TTY::Font.new(:doom)
+
+
 
 puts ""
 puts "" 
@@ -13,6 +15,6 @@ puts "  YOU HAVE DIED"
 
 puts font.write("GAME OVER",letter_spacing: 4)
 
-_
+
 end
 

@@ -2,7 +2,9 @@ require 'tty-font'
 
 paragraph_6 = def paragraph_6
 
-prompt = TTY::Prompt.new
+font = TTY::Font.new(:doom)
+
+
 
 puts ""
 puts "" 
