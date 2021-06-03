@@ -2,15 +2,24 @@ require 'colorize'
 require 'tty'
 require 'tty-prompt'
 require 'tty-font'
-require 'bundler'
-require 'pastel'
-require 'thor'
-require 'equatable'
+# require 'bundler'
+# require 'pastel'
+# require 'thor'
+# require 'equatable'
 require 'artii'
 require 'espeak'
 require_relative 'story'
 require_relative 'story2'
 require_relative 'story3'
+require_relative 'story4'
+require_relative 'story5'
+require_relative 'story6'
+require_relative 'story7'
+require_relative 'story8'
+require_relative 'story9'
+require_relative 'story10'
+require_relative 'story11'
+require_relative 'story12'
 # include ESpeak
   
     prompt = TTY::Prompt.new
@@ -70,18 +79,11 @@ require_relative 'story3'
   puts "will be the first of many choices you must make on your journey."
   puts "                                                                                                         "
   puts " "
-  
+
   prompt.select("Which road do you choose traveler?") do |menu|
     menu.choice "The north road", -> {paragraph_1}
     menu.choice "The middle road", -> {paragraph_2}
     menu.choice "The south road", -> {paragraph_3}
-
-    #class Paragraphs
-
-    #def initialize(id, story, *Paragraphs)
-    
-    
-  
 
 end
 
