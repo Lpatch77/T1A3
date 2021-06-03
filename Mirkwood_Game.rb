@@ -22,6 +22,9 @@ require_relative 'story11'
 require_relative 'story12'
 # include ESpeak
   
+
+
+  
     prompt = TTY::Prompt.new
   
     font = TTY::Font.new(:doom)
