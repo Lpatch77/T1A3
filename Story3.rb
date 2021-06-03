@@ -1,6 +1,6 @@
 require 'tty-prompt'
 
-$paragraph_3 = def paragraph_3 
+$Paragraph_3 = def paragraph_3 
 
   prompt = TTY::Prompt.new
 
