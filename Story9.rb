@@ -6,7 +6,7 @@ puts ""
 puts "" 
 puts "  Spurring your horse forward you continue along the path. "
 puts ""
-puts "  Suddenly a giant spider leaps from the brush and burys its huge fangs in your neck."
+puts "  Suddenly a goblin leaps screaming from the brush and burys a black blade in your heart."
 puts "" 
 puts "  YOU HAVE DIED
 
@@ -22,4 +22,5 @@ _____/\\\\\\\\\\\\______________________________________________________________
 
 
 
+end
 end
